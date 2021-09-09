@@ -21,6 +21,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Map currentWeatherData = await WeatherModel().getCurrentWeather();
     Navigator.push(context, MaterialPageRoute(builder: (context) {
       print(currentWeatherData['main']['temp']);
+
       return Home(weatherData['list'], currentWeatherData);
     }));
   }

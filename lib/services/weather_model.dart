@@ -2,7 +2,7 @@ import 'package:http/http.dart' as http;
 import 'package:geolocator/geolocator.dart';
 import 'dart:convert';
 
-const kApiKey = '953144532f238f23099574e828b7e991';
+const kApiKey = 'e486ccbc2801417e5d8f786f5656140b';
 const kApiMapUrl = 'https://api.openweathermap.org/data/2.5/find';
 const cnt = 20;
 
